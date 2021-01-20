@@ -1,0 +1,32 @@
+.header {
+  background-color: #2f2f38;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-item-logo a {
+  color: white;
+}
+
+.header-item-nav {
+  display: flex;
+}
+
+.side-menu-link {
+  margin-right: 10px;
+}
+
+.side-menu-link a {
+  color: white;
+}
+
+.side-menu-link a.current-link {
+  border-bottom: 2px solid #306bff
+}

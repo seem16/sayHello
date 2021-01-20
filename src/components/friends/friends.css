@@ -1,0 +1,48 @@
+.friends-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.friends-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 315px;
+  background-color: white;
+  margin: 0 5px 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+}
+
+/*.friends-item:last-child {*/
+/*  margin-right: 0px;*/
+/*}*/
+
+.friends-item-photo-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.current-page-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-num.active {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1486ec;
+}
+
+.page-num {
+  text-align: center;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #d3e1f5;
+  color: #033e6d;
+  border-radius: 50%;
+}

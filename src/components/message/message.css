@@ -1,0 +1,17 @@
+.messages-items {
+  display: flex;
+  /*display: grid;*/
+  /*grid-template-columns: 3fr 9fr;*/
+}
+
+.active-dialog {
+  color: orangered;
+}
+
+.dialog-item-textarea {
+  resize: none;
+}
+
+.textarea-error .dialogs-form-textarea {
+  border: 1px solid orangered;
+}

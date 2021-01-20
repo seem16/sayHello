@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  max-width: 992px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+/*img {*/
+/*  max-width: 100%;*/
+/*}*/
+
+a {
+  text-decoration: none;
+}
+
+
